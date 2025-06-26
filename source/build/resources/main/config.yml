@@ -1,0 +1,8 @@
+chat:
+  local-radius: 100
+  format: "%luckperms_prefix%{player}&8:&r {message}"
+  colors-enabled: true
+
+mute:
+  default-reason: "&#FF0000Chat violation"
+  time-format: "mm:ss"

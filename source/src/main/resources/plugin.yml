@@ -1,0 +1,25 @@
+name: UltimateChatTool
+version: '1.0'
+main: com.lifedestroyed.uct.Main
+api-version: '1.21'
+prefix: UCT
+authors: [ lifedestroyed ]
+description: Allows you to conveniently manage the chat on the server.
+website: https://github.com/lifedestroyed/
+commands:
+  mute:
+    description: "Mute a player"
+    usage: "/mute <player> [time] [reason]"
+  uct:
+    description: "Plugin control command"
+    usage: "/uct reload"
+permissions:
+  uct.colors:
+    description: "Allow using colors in chat"
+    default: false
+  uct.mute:
+    description: "Allow muting players"
+    default: op
+  uct.admin:
+    description: "Admin permissions"
+    default: op
